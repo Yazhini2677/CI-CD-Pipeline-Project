@@ -106,11 +106,3 @@ helm history app-release -n <namespace>
 helm rollback app-release <revision> -n <namespace>
 ```
 
-## Getting Started Locally
-
-```bash
-cd app
-mvn clean package
-docker build -t app:local .
-docker run -p 8080:8080 app:local
-```
