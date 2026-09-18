@@ -1,0 +1,9 @@
+replicaCount: 2
+
+ingress:
+  host: sample-app.staging.example.com
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 4

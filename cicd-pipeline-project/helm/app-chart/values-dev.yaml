@@ -1,0 +1,7 @@
+replicaCount: 1
+
+ingress:
+  host: sample-app.dev.example.com
+
+autoscaling:
+  enabled: false
